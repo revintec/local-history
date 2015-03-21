@@ -6,8 +6,25 @@
     "id": "local_history",
     "caption": "Local History",
     "children": [{
+      "caption": "Browse",
+      "command": "history_browse"
+    }, {
+      "caption": "Open",
+      "command": "history_open"
+    }, {
+      "caption": "Compare",
+      "command": "history_compare"
+    }, {
+      "caption": "Incremental Diff",
+      "command": "history_incremental_diff"
+    },{
+      "caption": "-"
+    },{
       "caption": "Delete All",
-      "command": "history_delete_all"
+      "children": [{
+        "caption": "Delete All",
+        "command": "history_delete_all"
+      }]
     }]
   }]
 }, {
